@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Up Socks - Product Listing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navbar (same for all pages) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-pink">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Cozy Up Socks</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="details.html">Details</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                    <li class="nav-item"><a class="nav-link" href="payment.html">Payment</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-info text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to Cozy Up Socks!</h1>
+            <p>Subscribe and get fun socks delivered to your door every month!</p>
+        </div>
+    </section>
+
+    <!-- Product List -->
+    <section id="products" class="product-list py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="sock1.jpg" alt="Colorful Stripes" class="img-fluid product-image">
+                        <h3>Colorful Stripes</h3>
+                        <p>Brighten your day with our colorful striped socks!</p>
+                        <a href="details.html" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="sock2.jpg" alt="Funky Dots" class="img-fluid product-image">
+                        <h3>Funky Dots</h3>
+                        <p>Spice up your wardrobe with our funky dotted socks!</p>
+                        <a href="details.html" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-pink text-center py-3">
+        <p>&copy; 2024 Cozy Up Socks</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

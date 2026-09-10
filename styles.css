@@ -1,0 +1,179 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffb6c1; /* Baby Pink */
+}
+.navbar .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 1rem;
+}
+.navbar-nav .nav-link:hover {
+    color: #a0d7e7 !important; /* Baby Blue on hover */
+}
+
+/* Hero Section */
+.bg-info {
+    background-color: #a0d7e7; /* Baby Blue */
+    color: #fff;
+    padding: 50px 0;
+}
+
+/* Product List Styling */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Product Image Styling */
+.product-image {
+    width: 100%;
+    height: 300px; /* Set a fixed height to make images uniform */
+    object-fit: cover; /* Ensure images don't stretch and maintain aspect ratio */
+}
+
+/* Product Cards */
+.product-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    background-color: #ffb6c1; /* Baby Pink */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #a0d7e7; /* Baby Blue */
+}
+
+/* Add to Cart Button Box Styling */
+.add-to-cart-box {
+    display: inline-block;
+    background-color: #a0d7e7; /* Baby Blue */
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-to-cart {
+    background-color: #007bff; /* Blue Button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3; /* Darker Blue on hover */
+}
+
+/* Layout for Product Details Section */
+.product-details .row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.product-details .col-md-6 {
+    flex: 1;
+    max-width: 500px;
+}
+
+/* Footer */
+footer {
+    background-color: #ffb6c1; /* Baby Pink */
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto
+}
+
+/* Ensure the body and html take full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Flexbox layout for the entire page */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content area should take the remaining space, pushing the footer to the bottom */
+main {
+    flex: 1;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffb6c1; /* Baby Pink */
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+/* Cart Box Styling */
+.cart-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+/* Payment Box Styling */
+.payment-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add to Cart Button Box Styling */
+.add-to-cart-box {
+    display: inline-block;
+    background-color: #a0d7e7; /* Baby Blue */
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-to-cart {
+    background-color: #007bff; /* Blue Button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
