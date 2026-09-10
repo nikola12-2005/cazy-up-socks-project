@@ -2,7 +2,7 @@
 
 A responsive front-end e-commerce project for a fictional sock subscription brand, built with a product listing, product details, shopping cart, and payment flow.
 
-**Live demo:** https://nikola12-2005.github.io/cazy-up-socks-project/
+**Live demo:** (https://nikola12-2005.github.io/cozy-up-socks-project/)
 
 ## Pages
 
