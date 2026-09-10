@@ -35,9 +35,3 @@ The site aims for an intuitive, clear purchasing flow from browsing to checkout,
 
 ## Tech stack
 HTML, CSS, JavaScript, Bootstrap 5
-
-## Screenshots
-_(add a `screenshots` folder to this repo with your images, then reference them here, e.g.)_
-
-![Product list](screenshots/product-list.png)
-![Payment page](screenshots/payment.png)
